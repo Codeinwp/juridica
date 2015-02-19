@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Juridica
+ Description:  An easy to use, beautiful theme, with a large number of customizable options like full control over the color scheme.  Juridica is a stunning, responsive, multi purpose WordPress theme excellent for Lawyers.
+ Author:       Themeisle
+ Author URI:   https://themeisle.com
+ Template:     lawyeria
+ Version:      1.0.0
+ License:      GNU General Public License version 2
+ License URI:  license.txt
+ Tags:          black, white, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+*/
+
+
+/*--------------------------------------------------------------
+General
+--------------------------------------------------------------*/
+
+
+
+/* HEADER */
+.wide-header {
+    width: 100%;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    margin: 5px 0px;
+    background: red !important;
+}
+
+
+
+
+/* GENERAL */ 
+
+
+
+
+
+
+
+
+
+/* FOOTER */
