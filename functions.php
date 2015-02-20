@@ -18,6 +18,10 @@ function juridica_custom_script_fix()
 	wp_register_script('lawyeria_script_child', get_stylesheet_directory_uri().'/js/wrapall.js', array('jquery') );
     wp_enqueue_script('lawyeria_script_child');
 	
+	
+	wp_enqueue_script('juridica-nicescroll',get_stylesheet_directory_uri().'/js/jquery.nicescroll.js',array('jquery'),'12121',true);
+    wp_enqueue_script('juridica-nicescroll-script',get_stylesheet_directory_uri().'/js/juridica-nicescroll.js',array('jquery','juridica-nicescroll'),'12121',true);	
+	
 }
 
 add_action( 'wp_enqueue_scripts', 'juridica_custom_script_fix', 100 );
