@@ -21,9 +21,13 @@ General
 
 .wrap-elements{
 
-	background: rgba(255, 255, 255, 0.85);
+
+	background: none repeat scroll 0% 0% rgba(42, 42, 42, 0.9);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.4);
 	/* header opacity */
+	position: absolute;
+	width: 100%;
+
 }
 
 
@@ -32,17 +36,12 @@ General
     margin: 5px 0px;
     background: none;
 }
-
-.wrap-elements {
-
-	position: absolute;
-	width: 100%;
-}
+	
 
 #subheader .subheader-color {
 	width: 100%;
 	height: 600px !important;
-    background: none repeat scroll 0% 0% rgba(54, 42, 32, 0.8) !important;
+    background: none repeat scroll 0% 0% rgba(54, 54, 54, 0.8) !important;
     
 	padding-bottom: 72px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset;
@@ -53,8 +52,25 @@ General
 
 #subheader .subheader-color .full-header-content-no-sidebar {
 	width: 100%;
-	margin-top: 280px !important;
+	margin-top: 320px !important;
 }
+
+#subheader .subheader-color .full-header-content {
+    width: 515px;
+    margin-top: 320px;
+    float: left;
+}
+
+#subheader .subheader-color .header-form {
+    width: 294px;
+    background: none repeat scroll 0% 0% #FFF;
+    margin-top: 280px;
+    padding: 27px 30px;
+    border: 3px solid #F3F3F3;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+    float: right;
+}
+
 
 
 .wrapper .cf{
@@ -63,8 +79,26 @@ General
 	/*width: 100% !important;*/
 }
 
+.header-contact {
+    margin-top: 30px;
+    line-height: 20px;
+    color: #F9F9F9 !important;
+    text-align: right;
+    font-weight: 700;
+    float: right;
+    font-size: 17px;
+}
 
+.header-contact span a {
+    color: #cca876 !important;
+    text-decoration: none;
+}
 
+.header-left .logo img {
+    width: auto;
+    max-height: 100%;
+    margin-top: 3px;
+}
 
 
 
@@ -72,6 +106,28 @@ General
 
 
 /* GENERAL */ 
+nav li a {
+    padding: 5px 10px;
+    display: block;
+    color: #F9F9F9 !important;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+    color: #cca876 !important;
+    border: 1px solid #cca876;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  
+}
+
+
 
 
 
@@ -79,3 +135,54 @@ General
 
 
 /* FOOTER */
+
+#footer .footer-box .searchform input#searchsubmit {
+    height: 30px;
+    background: none repeat scroll 0% 0% #605F5B !important;
+    margin: 10px 0px 0px;
+    padding: 5px 15px;
+    color: #FFF;
+    border: medium none;
+    display: block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+#footer {
+    width: 100%;
+    background: url("images/dark.png") ;
+    padding: 60px 0px;
+    float: left;
+}
+
+
+#footer .footer-box .searchform .screen-reader-text {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    color: #cca876 !important;
+    font-weight: bold;
+
+}
+#footer .footer-box .footer-box-title {
+    width: 100%;
+    color: #FFF;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #cca876 !important;
+}
+#footer .footer-box .searchform input#searchsubmit:hover {
+    background: #cca876 !important;
+
+}      
+
+
+/* COLOR Palette */
+/*
+
+gold: #cca876;
+gri inchis: #2c2c2c;
+
+
+*/

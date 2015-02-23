@@ -52,7 +52,7 @@
 
   var _globaloptions = {
     zindex: "auto",
-    cursoropacitymin: 0,
+    cursoropacitymin: 1,
     cursoropacitymax: 1,
     cursorcolor: "#424242",
     cursorwidth: "9px",
@@ -70,7 +70,7 @@
     autohidemode: true,
     background: "",
     iframeautoresize: true,
-    cursorminheight: 32,
+    cursorminheight: 202,
     preservenativescrolling: true,
     railoffset: false,
     railhoffset: false,
