@@ -22,7 +22,7 @@ General
 .wrap-elements{
 
 
-	background: none repeat scroll 0% 0% rgba(42, 42, 42, 0.9);
+	background: none repeat scroll 0% 0% rgba(42, 42, 42, 0.94);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.4);
 	/* header opacity */
 	position: absolute;
@@ -101,11 +101,25 @@ General
 }
 
 
-
+nav ul {
+    list-style: outside none none;
+    float: right;
+    margin-left: -10px;
+}
 
 
 
 /* GENERAL */ 
+
+#features {
+    width: 100%;
+    background: #E0E0E0 !important;
+    padding: 60px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) inset;
+    float: left;
+}
+
+
 nav li a {
     padding: 5px 10px;
     display: block;
@@ -126,13 +140,45 @@ nav li a:hover {
     transition: all 0.5s ease;
   
 }
-
-
-
-
-
-
-
+#subheader .second-subheader h3 {
+    margin: 0px 155px;
+    line-height: 42px;
+    color: #cca876 !important;
+    font-family: "Roboto Slab",sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-weight: 500;
+}
+.widget.widget_testimonials-widget .prev {
+    width: 30px;
+    height: 30px;
+    background: url("images/posts-navigation-left-arrow.png") no-repeat scroll center center #cca876;
+    margin-top: -15px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    float: left;
+}
+.widget.widget_testimonials-widget .next {
+    width: 30px;
+    height: 30px;
+    background: url("images/posts-navigation-right-arrow.png") no-repeat scroll center center #cca876;
+    margin-top: -15px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    float: right;
+}
+.widget.widget_testimonials-widget {
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+#content .content-article p {
+    margin-top: 25px;
+    line-height: 24px;
+    color: #394753;
+    font-family: "Roboto Slab",sans-serif;
+    text-align: justify;
+}
 
 /* FOOTER */
 
@@ -150,7 +196,7 @@ nav li a:hover {
 
 #footer {
     width: 100%;
-    background: url("images/dark.png") ;
+    background: url("images/dark.png") !important;
     padding: 60px 0px;
     float: left;
 }
@@ -176,7 +222,28 @@ nav li a:hover {
     background: #cca876 !important;
 
 }      
+.widget-our-lawyers p {
+    margin-top: 35px;
+}
+#footer .footer-box .wpcf7-submit{
+    background: #cca876 !important;
+    border: 2px solid #af9065 !important;
+}
 
+#footer .footer-box .wpcf7-submit:hover{
+    background: #af9065 !important;
+   
+}
+
+
+
+#footer .footer-box .footer-socials a.social-button {
+    line-height: 19px;
+    color: #FFF !important;
+    text-align: center;
+    font-size: 10px;
+    background: #cca876 !important;
+}
 
 /* COLOR Palette */
 /*
