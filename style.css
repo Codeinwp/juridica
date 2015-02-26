@@ -20,14 +20,10 @@ General
 /* HEADER */
 
 .wrap-elements{
-
-
 	background: none repeat scroll 0% 0% rgba(42, 42, 42, 0.94) !important;
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.4);
-	/* header opacity */
-	position: absolute;
+    position: absolute;
 	width: 100%;
-
 }
 
 
@@ -35,6 +31,7 @@ General
     width: 100%;
     margin: 0px;
     background: none;
+    border-bottom: 1px solid #626262;
 }
 	
 
@@ -75,6 +72,7 @@ General
 .wrapper h3{
     color: #3B3126 !important;
 }
+
 
 .header-contact {
     margin-top: 30px;
@@ -239,8 +237,6 @@ nav li a:hover {
 }
 
 
-
-
 /* FOOTER */
 
 #footer .footer-box .searchform input#searchsubmit {
@@ -296,8 +292,6 @@ nav li a:hover {
    
 }
 
-
-
 #footer .footer-box .footer-socials a.social-button {
     line-height: 19px;
     color: #FFF !important;
@@ -306,11 +300,3 @@ nav li a:hover {
     background: #cca876 !important;
 }
 
-/* COLOR Palette */
-/*
-
-gold: #cca876;
-gri inchis: #2c2c2c;
-
-
-*/
