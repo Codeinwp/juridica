@@ -142,6 +142,16 @@ nav li a:hover {
     transition: all 0.5s ease;
   
 }
+#subheader .subheader-color .full-header-content h3 {
+    width: 100%;
+    color: #FFF !important;
+    text-shadow: none;
+    line-height: 42px;
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 36px;
+}
+
+
 #subheader .second-subheader h3 {
     margin: 0px 155px;
     line-height: 42px;
